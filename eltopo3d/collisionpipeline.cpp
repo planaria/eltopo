@@ -1797,12 +1797,12 @@ void CollisionPipeline::get_intersections( bool degeneracy_counts_as_intersectio
                                                t2, triangle[2], 
                                                degeneracy_counts_as_intersection, m_surface.m_verbose ) )
             {
-                std::cout << "intersection: " << edge << " vs " << triangle << std::endl;
-                std::cout << "e0: " << e0 << std::endl;
-                std::cout << "e1: " << e1 << std::endl;
-                std::cout << "t0: " << t0 << std::endl;
-                std::cout << "t1: " << t1 << std::endl;
-                std::cout << "t2: " << t2 << std::endl;            
+                // std::cout << "intersection: " << edge << " vs " << triangle << std::endl;
+                // std::cout << "e0: " << e0 << std::endl;
+                // std::cout << "e1: " << e1 << std::endl;
+                // std::cout << "t0: " << t0 << std::endl;
+                // std::cout << "t1: " << t1 << std::endl;
+                // std::cout << "t2: " << t2 << std::endl;            
                 
                 intersections.push_back( Intersection( edge_candidates[j], i ) );
             }
